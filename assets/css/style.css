@@ -342,7 +342,10 @@ a {
     text-decoration: line-through;
     font-weight: 300;
 }
-
+.content-menu{
+    color: white;
+    margin-left: 10rem;
+}
 /*! menu end  */
 /*Galery Section start*/
 .galeri .images {
