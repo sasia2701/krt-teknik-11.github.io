@@ -12,11 +12,11 @@
           "dest":"/"
       }
   ],
-  "rewrites": [
-      {
-        "source": "/(.*)/?",
-        "destination": "https://www.gaziantepkombiservis.com/",
-        "type": 301
-      }
-    ]
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://yourdomainhere.com/:1",
+      "statusCode": 301
+    }
+  ]
 }
