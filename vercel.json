@@ -12,12 +12,10 @@
           "dest":"/"
       }
   ],
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "http://www.gaziantepkombiservis.com/",
       "destination": "https://www.gaziantepkombiservis.com/:1",
-      "statusCode": 301
-      
     }
   ]
 }
