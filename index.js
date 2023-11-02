@@ -31,9 +31,6 @@ server.use("/contact", contactRouter);
 server.get("*", (req, res) => {
     sendHTMLFile(res, "index");
 });
-if (location.protocol === 'http:') {
-    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
 
 const PORT = process.env.PORT || 5000;
 
