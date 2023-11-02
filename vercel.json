@@ -15,7 +15,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://yourdomainhere.com/:1",
+      "destination": "https://www.gaziantepkombiservis.com/:1",
       "statusCode": 301
     }
   ]
